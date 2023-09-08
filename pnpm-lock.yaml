@@ -20,8 +20,8 @@ devDependencies:
     specifier: ^0.5.0
     version: 0.5.0
   astro-sitemap:
-    specifier: ^0.6.0
-    version: 0.6.0
+    specifier: ^1.0.0
+    version: 1.0.0
   prettier:
     specifier: ^3.0.1
     version: 3.0.1
@@ -963,12 +963,12 @@ packages:
       zod: 3.21.4
     dev: true
 
-  /astro-sitemap@0.6.0:
-    resolution: {integrity: sha512-wR/ZIPB1u9hDkt2GtfBWSkSsfe1Qfh67q1usn8jDxiTJv7ON4w4zpTePwElpK6LJh+/B58ZvPJTvvsMdksb5rQ==}
+  /astro-sitemap@1.0.0:
+    resolution: {integrity: sha512-N4cbJplN/eeP+V3I9ndbpWdr82oyjxRSqAp9yP2RetbvrnvHeDiJ9THLtRuvqw/UkvH94AToVfzpVBe+/4ZHXA==}
     dependencies:
       minimatch: 9.0.3
       sitemap: 7.1.1
-      zod: 3.21.4
+      zod: 3.22.2
     dev: true
 
   /astro@3.0.5:
@@ -3571,6 +3571,10 @@ packages:
 
   /zod@3.21.4:
     resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==}
+    dev: true
+
+  /zod@3.22.2:
+    resolution: {integrity: sha512-wvWkphh5WQsJbVk1tbx1l1Ly4yg+XecD+Mq280uBGt9wa5BKSWf4Mhp6GmrkPixhMxmabYY7RbzlwVP32pbGCg==}
     dev: true
 
   /zwitch@2.0.4:
