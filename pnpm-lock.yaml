@@ -14,8 +14,8 @@ devDependencies:
     specifier: ^2.0.5
     version: 2.0.5
   astro-compressor:
-    specifier: ^0.4.0
-    version: 0.4.0
+    specifier: ^2.0.0
+    version: 2.0.1
   astro-robots-txt:
     specifier: ^1.0.0
     version: 1.0.0
@@ -952,8 +952,9 @@ packages:
       terser: 5.19.2
     dev: true
 
-  /astro-compressor@0.4.0:
-    resolution: {integrity: sha512-yw6wM+cjkdyAMc6HW2lrdinOxt64PwQuL5NCAe71cXF/5xjnyJhgg9nyyFE32oQtmtd5I/57Pyp/kPe9IfYAxg==}
+  /astro-compressor@2.0.1:
+    resolution: {integrity: sha512-4dgQUlhBkwuRMfGRjFh52s5YO9fKkcgmdzCXsbFPFt/f2Uu1XWsrLmHsdt7/en2F8Wqd65CHVeOHmbpBXFFg4g==}
+    engines: {node: '>=24'}
     dev: true
 
   /astro-robots-txt@1.0.0:
